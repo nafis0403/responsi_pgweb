@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE KLITIH</title>
+    <link rel="icon" href="icon/clurit.png" type="image/png">
+    <!-- Link Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            font-family: 'Rubik', sans-serif;
+        }
+
+        header {
+            background: linear-gradient(to right, #002973, #0047ab);
+            color: white;
+            text-align: center;
+            padding: 5rem 0;
+        }
+
+        header h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        section {
+            padding: 3rem 0;
+        }
+
+        .bg-highlight {
+            background-color: #f8f9fa;
+        }
+
+        .feature-card {
+            border: none;
+            border-radius: 15px;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            display: block;
+        }
+
+        .feature-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .feature-card img {
+            border-bottom: 5px solid #0047ab;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        footer {
+            background: #0047ab;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        footer a {
+            color: white;
+            font-weight: 600;
+        }
+
+        .btn-custom {
+            background: #0047ab;
+            color: white;
+            border-radius: 50px;
+            padding: 0.7rem 1.5rem;
+            transition: background 0.3s ease;
+        }
+
+        .btn-custom:hover {
+            background: #003580;
+        }
+
+        .feature-btn {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 100%;
+            height: 100%;
+            padding: 1rem;
+            background: #0047ab;
+            color: white;
+            text-align: center;
+            border-radius: 15px;
+            text-decoration: none;
+            transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, filter 0.3s ease;
+        }
+
+        .feature-btn:hover {
+            background: #003580;
+            transform: scale(1.05); /* Efek pembesaran */
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); /* Efek bayangan */
+            filter: brightness(1.2); /* Efek kecerahan */
+        }
+
+        .feature-btn img {
+            border-bottom: 5px solid white;
+            height: 200px;
+            object-fit: cover;
+            transition: transform 0.3s ease; /* Transisi untuk gambar */
+        }
+
+        .feature-btn:hover img {
+            transform: scale(1.1); /* Membesarkan gambar saat hover */
+        }
+
+        .feature-btn h5 {
+            margin-top: 10px;
+            font-size: 1.25rem;
+            font-weight: 600;
+            transition: color 0.3s ease; /* Transisi untuk warna teks */
+        }
+
+        .feature-btn p {
+            font-size: 1rem;
+            margin-top: 0.5rem;
+        }
+
+        .feature-btn:hover h5, .feature-btn:hover p {
+            color: #f8f9fa; /* Mengubah warna teks saat hover */
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <h1>THE KLITIH</h1>
+            <p>Monitor lokasi kejadian klitih di wilayah Yogyakarta secara real-time</p>
+            <a href="home.php" class="btn btn-custom mt-3">PETA</a>
+        </div>        
+    </header>
+
+    <section id="features" class="bg-highlight">
+        <div class="container text-center">
+            <h2 class="mb-4">Fitur Tersedia</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <a href="https://jogja.polri.go.id/polda/kontak-kami/pengaduan.html" class="feature-btn">
+                        <img src="https://asset.kompas.com/crops/NQVgT3xuyuK8TaFLVY67RbfThNY=/0x0:0x0/750x500/data/photo/2022/02/16/620d09cab2fce.jpg" alt="Pelaporan Cepat">
+                        <h5>Pelaporan Cepat</h5>
+                        <p>Laporkan kejadian klitih dengan mudah melalui aplikasi ini.</p>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="sb.php" class="feature-btn">
+                        <img src="https://images.ctfassets.net/szez98lehkfm/41eXVXgh1Az9AJ16nCQuiM/d40aa4fd4c14ce420d3bb5046f0a15e0/MyIC_Inline_52426" alt="Data Kejahatan">
+                        <h5>Sumber Data</h5>
+                        <p>Kunjungi bebrapa sumber data yang digunakan.</p>
+                    </a>
+                </div>
+                <!-- Informasi Terkini - Container Seperti Tombol -->
+                <div class="col-md-4">
+                    <a href="berita.php" class="feature-btn">
+                        <img src="https://cloud.jpnn.com/photo/arsip/watermark/2020/11/20/ilustrasi-aksi-begal-foto-antaraardika-23.jpg" alt="Informasi Terkini">
+                        <h5>Informasi Terkini</h5>
+                        <p>Dapatkan update terbaru mengenai insiden klitih di sekitar Anda.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Nafis Azka Alfarisi. Semua Hak Dilindungi.</p>
+            <a href="mailto:azkanafis04@gmail.com">Hubungi Kami</a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

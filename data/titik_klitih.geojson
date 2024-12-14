@@ -1,0 +1,21 @@
+{
+"type": "FeatureCollection",
+"name": "titik_klitih",
+"features": [
+{ "type": "Feature", "properties": { "Name": "Ringroad Barat (UMY)", "Long": 110.324538136, "Lat": -7.810435915 }, "geometry": { "type": "Point", "coordinates": [ 110.3245381, -7.8104359, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Jl. Sembuh Kidul", "Long": 110.292168569, "Lat": -7.783347533 }, "geometry": { "type": "Point", "coordinates": [ 110.2921686, -7.7833475, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Ringroad Utara (UTY)", "Long": 110.353596139, "Lat": -7.746243106 }, "geometry": { "type": "Point", "coordinates": [ 110.3535961, -7.7462431, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Jl. Gondosuli", "Long": 110.385281216, "Lat": -7.796119707 }, "geometry": { "type": "Point", "coordinates": [ 110.3852812, -7.7961197, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "XT Square", "Long": 110.386320739, "Lat": -7.817151152 }, "geometry": { "type": "Point", "coordinates": [ 110.3863207, -7.8171512, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Ringroad Timur Blok 0", "Long": 110.409992805, "Lat": -7.798199065 }, "geometry": { "type": "Point", "coordinates": [ 110.4099928, -7.7981991, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Jakal KM 9", "Long": 110.40857212500001, "Lat": -7.71145369 }, "geometry": { "type": "Point", "coordinates": [ 110.4085721, -7.7114537, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Titik Nol", "Long": 110.36475818300001, "Lat": -7.801299399 }, "geometry": { "type": "Point", "coordinates": [ 110.3647582, -7.8012994, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Jl. Tempel-Sayegan", "Long": 110.29871909400001, "Lat": -7.688421986 }, "geometry": { "type": "Point", "coordinates": [ 110.2987191, -7.688422, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Jl. Veteran", "Long": 110.392998514, "Lat": -7.809300572 }, "geometry": { "type": "Point", "coordinates": [ 110.3929985, -7.8093006, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Jl. Adisucipto", "Long": 110.408771243, "Lat": -7.783245683 }, "geometry": { "type": "Point", "coordinates": [ 110.4087712, -7.7832457, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Jl. Kabupaten", "Long": 110.347346583, "Lat": -7.753062626 }, "geometry": { "type": "Point", "coordinates": [ 110.3473466, -7.7530626, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Jl. Balong", "Long": 110.435422097, "Lat": -7.62176991 }, "geometry": { "type": "Point", "coordinates": [ 110.4354221, -7.6217699, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Jl. Tentara Pelajar", "Long": 110.38657641899999, "Lat": -7.703345391 }, "geometry": { "type": "Point", "coordinates": [ 110.3865764, -7.7033454, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Ringroad Utara (Sambilegi)", "Long": 110.43064001099999, "Lat": -7.774528875 }, "geometry": { "type": "Point", "coordinates": [ 110.43064, -7.7745289, 0.0 ] } }
+]
+}
