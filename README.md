@@ -22,12 +22,12 @@ WebGIS ini dirancang untuk memvisualisasikan data persebaran titik-titik klitih 
 Berikut adalah beberapa tangkapan layar dari aplikasi WebGIS:
 
 1. **Tampilan Utama**  
-   ![Tampilan Utama](img/tampilan_utama.png)
+   ![Tampilan Utama](img/halaman_utama.png)
 
 2. **Peta Persebaran Titik Klitih**  
-   ![Peta Persebaran](img/peta_klitih.png)
+   ![Peta Persebaran](img/halaman_peta.png)
 
-3. **Data Titik Klitih**  
-   ![Detail Lokasi](img/detail_lokasi.png)
+3. **Pengisian Data Titik Klitih**  
+   ![Detail Lokasi](img/isi_data.png)
 
 
