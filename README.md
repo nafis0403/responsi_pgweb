@@ -30,4 +30,6 @@ Berikut adalah beberapa tangkapan layar dari aplikasi WebGIS:
 3. **Pengisian Data Titik Klitih**  
    ![Detail Lokasi](img/isi_data.png)
 
-
+## LINK WEBSITE
+Aplikasi ini dapat diakses melalui link berikut:  
+👉 **[The Klitih WebGIS](https://nafis0403.github.io/responsi_pgweb/)**  
